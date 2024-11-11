@@ -14,6 +14,8 @@ def courseDetails(request):
     return render(request, 'course-details.html')
 def courses(request):
     return render(request, 'courses.html')
+def blog(request):
+    return render(request, 'blog.html')
 def elements(request):
     return render(request, 'elements.html')
 def singleBlog(request):

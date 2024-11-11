@@ -3,13 +3,13 @@ from django.urls import path
 from DjangoBuild import views
 urlpatterns = [
     path('', views.index, name='index'),
-    path('about/', views.about, name='about'),
-    path('blog/', views.contact, name='blog'),
+    path('about-us/', views.about, name='about'),
+    path('blog/', views.blog, name='blog'),
     path('contact/', views.contact, name='contact'),
-    path('course-details/', views.contact, name='course-details'),
-    path('courses/', views.contact, name='courses'),
-    path('elements/', views.contact, name='elements'),
-    path('single-blog/', views.contact, name='single-blog'),
+    path('course-details/', views.courseDetails, name='course-details'),
+    path('courses/', views.courses, name='courses'),
+    path('elements/', views.elements, name='elements'),
+    path('single-blog/', views.singleBlog, name='single-blog'),
 
 
 
